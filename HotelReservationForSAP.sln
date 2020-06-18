@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservationForSAP.Tests", "HotelReservationForSAP.Tests\HotelReservationForSAP.Tests.csproj", "{432E42A0-A962-4B93-B6B0-FDDE4B972B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432E42A0-A962-4B93-B6B0-FDDE4B972B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432E42A0-A962-4B93-B6B0-FDDE4B972B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432E42A0-A962-4B93-B6B0-FDDE4B972B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432E42A0-A962-4B93-B6B0-FDDE4B972B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90DEF0D-B7F3-48BF-8E0C-7C7CC34BDBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90DEF0D-B7F3-48BF-8E0C-7C7CC34BDBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90DEF0D-B7F3-48BF-8E0C-7C7CC34BDBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90DEF0D-B7F3-48BF-8E0C-7C7CC34BDBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB400E6-E5B2-4471-AA81-2D0954D105EE}
+	EndGlobalSection
+EndGlobal
