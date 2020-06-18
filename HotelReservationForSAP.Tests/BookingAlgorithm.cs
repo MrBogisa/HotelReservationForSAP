@@ -9,10 +9,17 @@ namespace HotelReservationForSAP.Tests
         public static List<(int, int, string)> Algorithm(int size, List<(int, int)> data)
         {
             const int MAXDAYS = 365;
+            const int MAXSIZE = 1000;
             int? startDate;
             int? endDate;
             var booking = new List<(int, int, string)>();
             bool isFirstIteration = true;
+            if (size < 1 || size > MAXSIZE)
+            {
+                //I assume that if size parametar is invalid it returns an empty list and bookings cannot be made
+                return new List<(int, int, string)>();
+            }
+
             List<Room> hotelRoom = new List<Room>(size);
             for (int i = 0; i < size; i++)
             {
